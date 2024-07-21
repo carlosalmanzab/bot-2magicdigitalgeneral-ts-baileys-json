@@ -8,7 +8,7 @@ const menuWelcomeFlows = {
     "servicios": infoServiciosFlow
 }
 
-export const welcomeFlow = addKeyword(EVENTS.WELCOME)
+export const menuWelcomeFlow = addKeyword(EVENTS.ACTION)
     .addAnswer([
         '*bienvenido a nuestra tienda online DT-UNLOCK',
         '',
